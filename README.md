@@ -23,7 +23,11 @@ If you want to install this plugin manually for some reason, simply clone this r
 - Checks to make sure the value is a valid px unit to convert to rem and visa versa
 
 ## Notes
-1. The default size of 1rem is 16px which can be changed in the user settings.
+1. The default size of 1rem is 16px which can be changed in the user settings, using 
+ "{
+    "1rem": 12
+ }" 
+at Preferences/Package Settings/REM-PX/SettingsUser menu.
 2. All values will remove trailing zero's (e.g. '1.500rem' would become '1.5rem').
 
 ## Examples (1rem = 16px)
